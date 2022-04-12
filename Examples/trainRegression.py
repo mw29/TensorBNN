@@ -9,7 +9,7 @@ import tensorflow as tf
 
 from tensorBNN.activationFunctions import Tanh
 from tensorBNN.layer import GaussianDenseLayer
-from tensorBNN.networkFinal import network
+from tensorBNN.network import network
 from tensorBNN.likelihood import FixedGaussianLikelihood
 from tensorBNN.metrics import SquaredError, PercentError
 
